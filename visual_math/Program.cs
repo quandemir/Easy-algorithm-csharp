@@ -55,13 +55,15 @@ namespace visual_math
             distance = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2));
 
             Console.WriteLine("Euclidean distance is " + distance);
+            //Console.WriteLine("Euclidean distance is {0}",distance);
             Console.ReadLine();
             */
+            
 
             //-----------------------------------------------------------------------------------------------------------------------
 
             /*
-            //Fotoğraftaki gibi sarı bölgenin, PacMan’in alanını bulan kodu yazınız.40 derece yarıçap 3
+            //Fotoğraftaki gibi sarı bölgenin, PacMan’in alanını bulan kodu yazınız.40 derece,yarıçapı 3
             double angle = 0.0;
             double r = 0.0;
             double area = 0.0;
